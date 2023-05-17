@@ -1,0 +1,373 @@
+[
+    {
+        "BankName": "KAURURVYSHYA",
+        "BankId": "KAU30032023M",
+        "IsActive": 1,
+        "Branches": [
+            {
+                "BranchName": "KONDAPUR",
+                "BranchId": "KON30032023170712",
+                "BranchAddress": "KONDAPUR X RAOD",
+                "BranchPhoneNumber": "9989787665",
+                "IsActive": 1,
+                "Managers": [
+                    {
+                        "Name": "SRAVAN",
+                        "Salt": "0FyYtS3dd1hLc/lEMIbVB6NREY/uXuAe6yqFh1j8hG8=",
+                        "HashedPassword": "tY41FbQXmY9UugVlKvu9bX10uszTCoEKIfkZ4yime70=",
+                        "AccountId": "SRA30032023173050",
+                        "IsActive": 1
+                    }
+                ],
+                "Charges": [
+                    {
+                        "RtgsSameBank": 0,
+                        "RtgsOtherBank": 8,
+                        "ImpsSameBank": 5,
+                        "ImpsOtherBank": 0,
+                        "IsDeleted": 1
+                    },
+                    {
+                        "RtgsSameBank": 0,
+                        "RtgsOtherBank": 2,
+                        "ImpsSameBank": 5,
+                        "ImpsOtherBank": 6,
+                        "IsDeleted": 0
+                    }
+                ],
+                "Staffs": [
+                    {
+                        "Role": 1,
+                        "Name": "SuhasB",
+                        "Salt": "O4e5ZbE5UGNUupqggTJGtitquMF5ftn+fIzzKPUXiX8=",
+                        "HashedPassword": "oEeZA/Y/1LCMcukerl+HsWaudz4QdxyWSs1RXf3Uuos=",
+                        "AccountId": "SUH31032023130810",
+                        "IsActive": 1
+                    },
+                    {
+                        "Role": 2,
+                        "Name": "CHANDU",
+                        "Salt": "x4NbPko1AHRsg4Ra/KxFUeYf1zbvuWLyhIvPP4mYNws=",
+                        "HashedPassword": "Q7/Vrfff4fRAJ7sqkwJs8KNhjvZ9UlrPsvcF/bMdo5k=",
+                        "AccountId": "CHA31032023131025",
+                        "IsActive": 1
+                    },
+                    {
+                        "Role": 4,
+                        "Name": "MANOJ",
+                        "Salt": "7Dih3LUkdCZ9AI4FThUDmzoMrD5W9LgX2sUataU3eF0=",
+                        "HashedPassword": "0SBNkVI4Lii7G9WrB+FMWC7XhH5KwRRydaKCFUYPBag=",
+                        "AccountId": "MAN31032023132330",
+                        "IsActive": 0
+                    }
+                ],
+                "Customers": [
+                    {
+                        "Balance": 875.58,
+                        "PhoneNumber": "9989786773",
+                        "EmailId": "saurabh123@gmail.com",
+                        "AccountType": 2,
+                        "Address": "XROAD KONDAPUR",
+                        "DateOfBirth": "27/08/1997",
+                        "Gender": 1,
+                        "PassbookIssueDate": "2023-03-31T16:56:21.664897+05:30",
+                        "Transactions": [
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": null,
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": null,
+                                "TransactionId": "TXNKAUSAU02042023170102",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 1,
+                                "ToCustomerAccountId": null,
+                                "TransactionDate": "2023-04-02T17:01:02.0474511+05:30",
+                                "Debit": 0,
+                                "Credit": 166,
+                                "Balance": 166
+                            },
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": null,
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": null,
+                                "TransactionId": "TXNKAUSAU02042023170807",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 1,
+                                "ToCustomerAccountId": null,
+                                "TransactionDate": "2023-04-02T17:08:07.4969967+05:30",
+                                "Debit": 0,
+                                "Credit": 83,
+                                "Balance": 249
+                            },
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": null,
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": null,
+                                "TransactionId": "TXNKAUSAU02042023173449",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 1,
+                                "ToCustomerAccountId": null,
+                                "TransactionDate": "2023-04-02T17:34:49.5009112+05:30",
+                                "Debit": 0,
+                                "Credit": 249,
+                                "Balance": 498
+                            },
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": null,
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": null,
+                                "TransactionId": "TXNKAUSAU02042023210845",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 1,
+                                "ToCustomerAccountId": null,
+                                "TransactionDate": "2023-04-02T21:08:45.0254505+05:30",
+                                "Debit": 0,
+                                "Credit": 415,
+                                "Balance": 913
+                            },
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": "KAU30032023M",
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": "KON30032023170712",
+                                "TransactionId": "TXNKAUSAU03042023074717",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 3,
+                                "ToCustomerAccountId": "KAU30032023M",
+                                "TransactionDate": "2023-04-03T07:47:17.2786155+05:30",
+                                "Debit": 30,
+                                "Credit": 0,
+                                "Balance": 881.50
+                            },
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": "KAU30032023M",
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": "KON30032023170712",
+                                "TransactionId": "TXNKAUSAU03042023112648",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 4,
+                                "ToCustomerAccountId": "KAU30032023M",
+                                "TransactionDate": "2023-04-03T11:26:48.5744764+05:30",
+                                "Debit": 0,
+                                "Credit": 30,
+                                "Balance": 911.50
+                            },
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": null,
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": null,
+                                "TransactionId": "TXNKAUSAU03042023134233",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 2,
+                                "ToCustomerAccountId": null,
+                                "TransactionDate": "2023-04-03T13:42:33.4225483+05:30",
+                                "Debit": 2,
+                                "Credit": 0,
+                                "Balance": 909.50
+                            },
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": "SBI30032023M",
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": "MAD03042023132534",
+                                "TransactionId": "TXNKAUSAU03042023143423",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 3,
+                                "ToCustomerAccountId": "SBI30032023M",
+                                "TransactionDate": "2023-04-03T14:34:23.6914343+05:30",
+                                "Debit": 32,
+                                "Credit": 0,
+                                "Balance": 875.58
+                            }
+                        ],
+                        "Name": "SAURABH",
+                        "Salt": "6FQBlQPVmcD2jY85+p0fL4LrrAAUYq8yIyup77qDyLI=",
+                        "HashedPassword": "m/qLWO8jGjjtVOhn/FYDx9nJ+l+B4ucUUfjZcnlDirA=",
+                        "AccountId": "SAU31032023165621",
+                        "IsActive": 1
+                    },
+                    {
+                        "Balance": 0,
+                        "PhoneNumber": "9989789009",
+                        "EmailId": "BALAHARI123@GMAIL.COM",
+                        "AccountType": 2,
+                        "Address": "BTS NALGONDA",
+                        "DateOfBirth": "27/06/1997",
+                        "Gender": 1,
+                        "PassbookIssueDate": "2023-04-03T07:40:26.708646+05:30",
+                        "Transactions": [
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": "KAU30032023M",
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": "KON30032023170712",
+                                "TransactionId": "TXNKAUSAU03042023074717",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 3,
+                                "ToCustomerAccountId": "HAR03042023074026",
+                                "TransactionDate": "2023-04-03T07:47:17.2786155+05:30",
+                                "Debit": 0,
+                                "Credit": 30,
+                                "Balance": 30
+                            },
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": "KAU30032023M",
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": "KON30032023170712",
+                                "TransactionId": "TXNKAUSAU03042023112648",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 4,
+                                "ToCustomerAccountId": "HAR03042023074026",
+                                "TransactionDate": "2023-04-03T11:26:48.5744764+05:30",
+                                "Debit": 30,
+                                "Credit": 0,
+                                "Balance": 0
+                            }
+                        ],
+                        "Name": "HARIKRISHNA",
+                        "Salt": "k3zNHbywOc4zl5VQsj9U7pQZmA7gQvrNq9DoFIDoPHU=",
+                        "HashedPassword": "bxDzpcmHeDOF33ysJBjNKgBeA9cr9dYBRY//Q2TDXdw=",
+                        "AccountId": "HAR03042023074026",
+                        "IsActive": 1
+                    }
+                ]
+            },
+            {
+                "BranchName": "UDAYPUR",
+                "BranchId": "UDA30032023171557",
+                "BranchAddress": "SSSSFDFSDFS",
+                "BranchPhoneNumber": "9989899897",
+                "IsActive": 1,
+                "Managers": [
+                    {
+                        "Name": "satwik",
+                        "Salt": "/yBiTqKc3BsyXhxx3PWj2M8m93mnJRrCW5hNeGYYlUk=",
+                        "HashedPassword": "8UkLvftqX95+0jGPJc6FZ0n0e9tAs81/U662d9ZnwUo=",
+                        "AccountId": "SAT30032023190802",
+                        "IsActive": 0
+                    }
+                ],
+                "Charges": null,
+                "Staffs": null,
+                "Customers": null
+            }
+        ],
+        "HeadManagers": [
+            {
+                "Name": "AKASH",
+                "Salt": "AQI7crKt1HTsAWEOsWnlIkwoo77+WBjXGoU28xCiLI0=",
+                "HashedPassword": "tO0FH3HYYZKWiHq7csm4YHHPxu9LP9KRsrEJXuf0vkw=",
+                "AccountId": "AKA30032023140736",
+                "IsActive": 1
+            },
+            {
+                "Name": "sai",
+                "Salt": "M9mVVqxXL+x07ylz9COEYG4q4II4k1ym2XZ0TNNKk/M=",
+                "HashedPassword": "WSSm+NiKWOBUpd4tJectDn97nFr1fokn2aG9O2ESyk0=",
+                "AccountId": "HAR30032023151229",
+                "IsActive": 0
+            }
+        ],
+        "Currency": [
+            {
+                "CurrencyCode": "USD",
+                "ExchangeRate": 83,
+                "IsDeleted": 0
+            },
+            {
+                "CurrencyCode": "KWD",
+                "ExchangeRate": 287,
+                "IsDeleted": 0
+            },
+            {
+                "CurrencyCode": "YEN",
+                "ExchangeRate": 0.63,
+                "IsDeleted": 0
+            },
+            {
+                "CurrencyCode": "YUAN",
+                "ExchangeRate": 89,
+                "IsDeleted": 1
+            },
+            {
+                "CurrencyCode": "CNY",
+                "ExchangeRate": 11.96,
+                "IsDeleted": 0
+            }
+        ]
+    },
+    {
+        "BankName": "SBI",
+        "BankId": "SBI30032023M",
+        "IsActive": 1,
+        "Branches": [
+            {
+                "BranchName": "MADHAPUR",
+                "BranchId": "MAD03042023132534",
+                "BranchAddress": "MADHAPUR X ROAD",
+                "BranchPhoneNumber": "8876754223",
+                "IsActive": 1,
+                "Managers": [
+                    {
+                        "Name": "ARUN",
+                        "Salt": "qu2bb6Eye9aZWCiub4c0rxp7ap/mo/UrPqomJDHraBY=",
+                        "HashedPassword": "u3ZjsMBe+lJ9Bg15TPgW3jgJbK1FumEoIsWdT+8T8JM=",
+                        "AccountId": "ARU03042023133553",
+                        "IsActive": 1
+                    }
+                ],
+                "Charges": null,
+                "Staffs": null,
+                "Customers": [
+                    {
+                        "Balance": 32,
+                        "PhoneNumber": "8897896778",
+                        "EmailId": "AKSHAY123@GMAIL.COM",
+                        "AccountType": 1,
+                        "Address": "KOTHAGUDA HYDERABAD",
+                        "DateOfBirth": "27/06/1997",
+                        "Gender": 1,
+                        "PassbookIssueDate": "2023-04-03T13:40:29.2370975+05:30",
+                        "Transactions": [
+                            {
+                                "FromCustomerBankId": "KAU30032023M",
+                                "ToCustomerBankId": "SBI30032023M",
+                                "FromCustomerBranchId": "KON30032023170712",
+                                "ToCustomerBranchId": "MAD03042023132534",
+                                "TransactionId": "TXNKAUSAU03042023143423",
+                                "FromCustomerAccountId": "SAU31032023165621",
+                                "TransactionType": 3,
+                                "ToCustomerAccountId": "AKS03042023134029",
+                                "TransactionDate": "2023-04-03T14:34:23.6914343+05:30",
+                                "Debit": 0,
+                                "Credit": 32,
+                                "Balance": 32
+                            }
+                        ],
+                        "Name": "AKSHAY",
+                        "Salt": "t6Q+NChyx7jgmYSBgyHlFjw8zrW8HgrOaY7DT21nF7M=",
+                        "HashedPassword": "YxNkPcdq4OemzZPiVJTFRvDbYtDZGXhtDFZXail023A=",
+                        "AccountId": "AKS03042023134029",
+                        "IsActive": 1
+                    }
+                ]
+            }
+        ],
+        "HeadManagers": [
+            {
+                "Name": "SANTOSH",
+                "Salt": "8e8V3/TVr8kUgoiKkvLB5vXQTS/repZdB1bhEv2joBU=",
+                "HashedPassword": "jNZOkRw8Gxix4v7cjXaD3pkkdhMAB22Dgug9YUMp9/g=",
+                "AccountId": "SAN03042023125307",
+                "IsActive": 1
+            }
+        ],
+        "Currency": null
+    }
+]
