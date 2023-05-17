@@ -1,6 +1,7 @@
 /.vs
 /API/bin
 /API/obj
+/BankDetails.json
 /BankApplication/bin
 /BankApplication/obj
 /BankApplicationHelperMethods/bin
